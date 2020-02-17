@@ -49,7 +49,7 @@ I examined the word frequency counts in the text corpus derived from the questio
 2. Run ```python text_analyzing.py``` 
 
 ## Creating word embeddings
-As previously mentioned I used four different approaches to train the CNN. <br />
+As previously mentioned I used four different word embedding approaches. <br />
 Word embeddings can be created for each model by running the scripts in ```word_embeddings```
 
 #### Usage
@@ -60,6 +60,8 @@ Word embeddings can be created for each model by running the scripts in ```word_
 4. For Fasttext run ```python fasttext.py``` 
 4. For TF-IDF run ```python tf_idf.py``` 
 
+## Visualizing word embeddings
+I visualize the word embeddings created by Word2Vec, Doc2Vec, and Fasttext by reducing their dimensionalities with T-distributed Stochastic Neighbor Embedding (t-SNE) [10]. Credits to [jeffd23](https://www.kaggle.com/jeffd23/visualizing-word-vectors-with-t-sne)
 
 ## References
 [1] Mikolov, T., et al. 2013a. Distributed representations of words and phrases and their compositionality. In Advances in    
@@ -71,4 +73,6 @@ Neural Information Processing Systems. <br />
 [6] Ramos, J. 2003. Using tf-idf to determine word relevance in document queries. In ICML. <br />
 [7] Jurafsky, D. and Martin, H. J. 2018. Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition. Pearson. Prentice Hall, Third Edition draft. <br />
 [8] Kim, Y. 2014. Convolutional neural networks for sentence classification. arXiv preprint arXiv:1408.5882.<br />
-[9]  Bogdanova D., dos Santos C. N., Barbosa L., and Zadrozny B. 2015. Detecting semantically equivalent questions in online user forums. In Proceedings of the 19th Conference on Computational Natural Language Learning, CoNLL 2015, Beijing, China, pages 123–131.
+[9] Bogdanova D., dos Santos C. N., Barbosa L., and Zadrozny B. 2015. Detecting semantically equivalent questions in online user forums. In Proceedings of the 19th Conference on Computational Natural Language Learning, CoNLL 2015, Beijing, China, pages 123–131. <br />
+[10] Heuer, H. 2015.Text comparison using word vector representations and dimensionality reduction. Proc. EuroSciPy, pp. 13-16.
+
