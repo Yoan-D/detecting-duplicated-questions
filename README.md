@@ -48,6 +48,17 @@ I examined the word frequency counts in the text corpus derived from the questio
 1. Make sure to run the preprocessing steps first.
 2. Run ```python text_analyzing.py``` 
 
+## Creating word embeddings
+As previously mentioned I used four different approaches to train the CNN. <br />
+Word embeddings can be created for each model by running the scripts in ```word_embeddings```
+
+#### Usage
+
+1. Make sure to run the preprocessing steps first.
+2. For word2vec run ```python word2vec.py``` 
+3. For doc2vec run ```python doc2vec.py``` 
+4. For fasttext run ```python fasttext.py``` 
+4. For tf-idf run ```python tf_idf.py``` 
 
 
 ## References
