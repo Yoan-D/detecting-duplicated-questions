@@ -3,10 +3,14 @@ I tackle the task of detecting semantically similar sentences and classifying th
 I used the [Quora dataset](https://www.kaggle.com/c/quora-question-pairs) made available to the public. <br />
 
 The questions in the dataset go through several preprocessing steps before being converted into word embeddings. <br />
-I experiment with three embedding approaches: Word2Vec[1,2], Fasttext[3, 4], and Doc2Vec [5]. Additionally, I use a fourth approach by combining Word2Vec and Term Frequency – Inverse Document Frequency (TF-IDF) [6, 7]. The network used to classify questions pairs as duplicates is based on the CNN architecture for sentence classification introduced by Yoon Kim [8] in 2014. I slightly adapt his original network by adding a cosine similarity layer to the end of the network. 
+I experiment with three embedding approaches: Word2Vec[1,2], Fasttext[3, 4], and Doc2Vec [5]. Additionally, I use a fourth approach by combining Word2Vec and Term Frequency – Inverse Document Frequency (TF-IDF) [6, 7]. The network used to classify questions pairs as duplicates is based on the CNN architecture for sentence classification introduced by Yoon Kim [8] in 2014. I slightly adapt his original network by adding a cosine similarity layer to the end of the network. A similar approach can be found in [9]
 
+### Text preprocessing
 
-
+1. Every sentence is stripped of all punctuation.
+2. Some typos are fixed manually.
+3. Every sentence is tokenized.
+4. A pretrained [Word2Vec model](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) and [Symspellpy](https://github.com/mammothb/symspellpy) are used to fix more typos and to segment words appropriately if necessary.
 
 
 
@@ -26,3 +30,4 @@ Neural Information Processing Systems. <br />
 [6] Ramos, J. 2003. Using tf-idf to determine word relevance in document queries. In ICML. <br />
 [7] Jurafsky, D. and Martin, H. J. 2018. Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition. Pearson. Prentice Hall, Third Edition draft. <br />
 [8] Kim, Y. 2014. Convolutional neural networks for sentence classification. arXiv preprint arXiv:1408.5882.<br />
+[9]  Bogdanova D., dos Santos C. N., Barbosa L., and Zadrozny B. 2015. Detecting semantically equivalent questions in online user forums. In Proceedings of the 19th Conference on Computational Natural Language Learning, CoNLL 2015, Beijing, China, pages 123–131.
