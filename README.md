@@ -62,7 +62,8 @@ Word2Vec, Doc2Vec and Fasttext are all trained with the same parameters.
 4. For TF-IDF run ```python tf_idf.py``` 
 
 ## Visualizing word embeddings
-I visualize the word embeddings created by Word2Vec, Doc2Vec, and Fasttext by reducing their dimensionalities with T-distributed Stochastic Neighbor Embedding (t-SNE) [10]. Credits to [jeffd23](https://www.kaggle.com/jeffd23/visualizing-word-vectors-with-t-sne)
+I visualize the word embeddings created by Word2Vec, Doc2Vec, and Fasttext by reducing their dimensionalities with T-distributed Stochastic Neighbor Embedding (t-SNE) [10]. Credits to [jeffd23](https://www.kaggle.com/jeffd23/visualizing-word-vectors-with-t-sne). In the examples depicted below, I use the trained models to find the top 10 similar words for the words *car*, *guns*, *isis*, and *trump*. It is really interesting to see how words are mapped in vector space and which ones are similar according to the cosine similarity measurement. <br />
+
 
 <p align="center">
 
