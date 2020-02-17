@@ -71,6 +71,33 @@ I visualize the word embeddings created by Word2Vec, Doc2Vec, and Fasttext by re
 <img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/fasttext_car.png" width="270">
 
 </p>
+
+<p align="center">
+
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/doc2vec_guns.png" width="270">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/word2vec_guns.png" width="270">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/fasttext_guns.png" width="270">
+
+</p>
+
+<p align="center">
+
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/doc2vec_isis.png" width="270">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/word2vec_isis.png" width="270">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/fasttext_isis.png" width="270">
+
+</p>
+
+<p align="center">
+
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/doc2vec_trump.png" width="270">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/word2vec_trump.png" width="270">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/fasttext_trump.png" width="270">
+
+</p>
+
+
+
 ## References
 [1] Mikolov, T., et al. 2013a. Distributed representations of words and phrases and their compositionality. In Advances in    
 Neural Information Processing Systems. <br />
