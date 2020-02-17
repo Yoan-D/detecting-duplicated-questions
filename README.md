@@ -19,13 +19,32 @@ I experiment with three embedding approaches: Word2Vec[1,2], Fasttext[3, 4], and
 
 I examined the word frequency counts in the text corpus derived from the questions.
 
+<p align="center">
 
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/most_common_words.png" width="600">
+</p>
 
+<br />
+<p align="center">
 
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/log_frequency_diagram.png" width="600">
 
+</p>
 
+#### Conclusions from the text analysis
 
+- Since words that occur only once or twice make up 43.21% of the text corpus, they cannot be discarded when training the embedding models.
 
+- The Skip-Gram model will be used to create word embeddings because, as Mikolov et al. point out [1], it works well on small data sets and is more susceptible to rare words.
+
+- Interestingly, most of the the word occurrences can be found between 3 standard deviations above the mean and 1 standard deviation below the mean.
+
+- Words such as "the" and "what", which occur very often, can be found between 5 and 6 standard deviations above the mean. However, as the histogram shows, they are exceptions.
+
+#### Usage
+
+1. Make sure to run the preprocessing steps first.
+2. Run ```python text_analyzing.py``` 
 
 
 
