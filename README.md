@@ -5,7 +5,7 @@ I used the [Quora dataset](https://www.kaggle.com/c/quora-question-pairs) made a
 The questions in the dataset go through several preprocessing steps before being converted into word embeddings. <br />
 I experiment with three embedding approaches: Word2Vec[1,2], Fasttext[3, 4], and Doc2Vec [5]. Additionally, I use a fourth approach by combining Word2Vec and Term Frequency – Inverse Document Frequency (TF-IDF) [6, 7]. The network used to classify questions pairs as duplicates is based on the CNN architecture for sentence classification introduced by Yoon Kim [8] in 2014. I slightly adapt his original network by adding a cosine similarity layer to the end of the network. A similar approach can be found in [9].
 
-### Text preprocessing
+## Text preprocessing
 
 1. Every sentence is stripped of all punctuation.
 2. Some typos are fixed manually.
@@ -15,7 +15,7 @@ I experiment with three embedding approaches: Word2Vec[1,2], Fasttext[3, 4], and
 1. Please refer to ```README``` in ```pretrained_word_vectors```to download the pretrained Word2Vec model.
 2. Run ```python text_preprocessing.py``` to clean and tokenize the questions
 
-### Text analysis
+## Text analysis
 
 I examined the word frequency counts in the text corpus derived from the questions.
 
@@ -48,7 +48,7 @@ I examined the word frequency counts in the text corpus derived from the questio
 
 
 
-### References
+## References
 [1] Mikolov, T., et al. 2013a. Distributed representations of words and phrases and their compositionality. In Advances in    
 Neural Information Processing Systems. <br />
 [2] Mikolov, T., et al. 2013. Efficient estimation of word representations in vector space. ICLR Workshop. <br />
