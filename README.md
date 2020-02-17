@@ -96,7 +96,8 @@ I visualize the word embeddings created by Word2Vec, Doc2Vec, and Fasttext by re
 <img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/fasttext_trump.png" width="270">
 
 </p>
-
+#### Usage
+1. The visualizing script can be run in the provided jupyter notebook.
 
 
 ## References
