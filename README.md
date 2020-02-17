@@ -64,6 +64,13 @@ Word2Vec, Doc2Vec and Fasttext are all trained with the same parameters.
 ## Visualizing word embeddings
 I visualize the word embeddings created by Word2Vec, Doc2Vec, and Fasttext by reducing their dimensionalities with T-distributed Stochastic Neighbor Embedding (t-SNE) [10]. Credits to [jeffd23](https://www.kaggle.com/jeffd23/visualizing-word-vectors-with-t-sne)
 
+<p align="center">
+
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/doc2vec_car.png" width="200">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/word2vec_car.png" width="200">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/fasttext_car.png" width="200">
+
+</p>
 ## References
 [1] Mikolov, T., et al. 2013a. Distributed representations of words and phrases and their compositionality. In Advances in    
 Neural Information Processing Systems. <br />
