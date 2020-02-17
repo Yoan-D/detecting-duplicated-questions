@@ -55,10 +55,10 @@ Word embeddings can be created for each model by running the scripts in ```word_
 #### Usage
 
 1. Make sure to run the preprocessing steps first.
-2. For word2vec run ```python word2vec.py``` 
-3. For doc2vec run ```python doc2vec.py``` 
-4. For fasttext run ```python fasttext.py``` 
-4. For tf-idf run ```python tf_idf.py``` 
+2. For Word2Vec run ```python word2vec.py``` 
+3. For Doc2Vec run ```python doc2vec.py``` 
+4. For Fasttext run ```python fasttext.py``` 
+4. For TF-IDF run ```python tf_idf.py``` 
 
 
 ## References
