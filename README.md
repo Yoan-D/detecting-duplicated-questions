@@ -100,6 +100,11 @@ I visualize the word embeddings created by Word2Vec, Doc2Vec, and Fasttext by re
 #### Usage
 1. The visualizing script can be run in the provided jupyter notebook.
 
+## Network
+Coming soon
+
+## Results
+Coming soon
 
 ## References
 [1] Mikolov, T., et al. 2013a. Distributed representations of words and phrases and their compositionality. In Advances in    
