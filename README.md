@@ -66,9 +66,9 @@ I visualize the word embeddings created by Word2Vec, Doc2Vec, and Fasttext by re
 
 <p align="center">
 
-<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/doc2vec_car.png" width="200">
-<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/word2vec_car.png" width="200">
-<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/fasttext_car.png" width="200">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/doc2vec_car.png" width="270">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/word2vec_car.png" width="270">
+<img src="https://github.com/Yoan-D/detecting-duplicated-questions/blob/master/screenshots/fasttext_car.png" width="270">
 
 </p>
 ## References
