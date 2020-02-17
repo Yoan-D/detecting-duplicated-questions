@@ -15,6 +15,11 @@ I experiment with three embedding approaches: Word2Vec[1,2], Fasttext[3, 4], and
 1. Please refer to ```README``` in ```pretrained_word_vectors```to download the pretrained Word2Vec model.
 2. Run ```python text_preprocessing.py``` to clean and tokenize the questions
 
+### Text analysis
+
+I examined the word frequency counts in the text corpus derived from the questions.
+
+
 
 
 
