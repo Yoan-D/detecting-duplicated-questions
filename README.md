@@ -50,7 +50,8 @@ I examined the word frequency counts in the text corpus derived from the questio
 
 ## Creating word embeddings
 As previously mentioned I used four different word embedding approaches. <br />
-Word embeddings can be created for each model by running the scripts in ```word_embeddings```
+Word embeddings can be created for each model by running the scripts in ```word_embeddings``` <br />
+Word2Vec, Doc2Vec and Fasttext are all trained with the same parameters.
 
 #### Usage
 
