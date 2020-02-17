@@ -11,6 +11,8 @@ I experiment with three embedding approaches: Word2Vec[1,2], Fasttext[3, 4], and
 2. Some typos are fixed manually.
 3. Every sentence is tokenized.
 4. A pretrained [Word2Vec model](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) and [Symspellpy](https://github.com/mammothb/symspellpy) are used to fix more typos and to segment words appropriately if necessary.
+5. Stop words are not removed since they are semantically important in some cases
+
 #### Usage
 1. Please refer to ```README``` in ```pretrained_word_vectors```to download the pretrained Word2Vec model.
 2. Run ```python text_preprocessing.py``` to clean and tokenize the questions
